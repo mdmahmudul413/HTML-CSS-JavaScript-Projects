@@ -1,0 +1,92 @@
+@media only screen and (max-width:1125px) {
+    .navbar {
+        flex-direction: column;
+        height: 440px;
+        transition: all .4s ease-out;
+    }
+    .logo img {
+        width: 100px;
+        border-radius: 62px;
+    }
+    .navbar .nav-list {
+        flex-direction: column;
+    }
+    .btn-sm {
+        display: block;
+        margin: 8px auto;
+    }
+    .rightnav {
+        text-align: center;
+    }
+    .line {
+        display: block;
+    }
+    .hNavResp {
+        height: 72px;
+    }
+    .visibilityResp {
+        opacity: 0;
+    }
+    .mainBox {
+        flex-direction: column-reverse;
+    }
+    .formInput {
+        width: 60%;
+        display: block;
+        margin: 11px auto;
+    }
+    .form textarea {
+        width: 60%;
+        display: block;
+        padding: 4px;
+        border-radius: 5px;
+        height: 160px;
+        margin: 10px auto;
+    }
+    .sectionMiddle {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        max-width: 80%;
+        flex-direction: column-reverse;
+        margin: 60px auto;
+        border: 2px solid gray;
+        border-radius: 25px;
+    }
+    .imgFluid {
+        width: 70%;
+    }
+    .thumbnail {
+        display: flex;
+        justify-content: center;
+    }
+    .sectionTag {
+        text-align: center;
+    }
+    .sectionSubTag {
+        text-align: center;
+        padding: 15px 0px;
+    }
+    .textBig {
+        text-align: center;
+    }
+    .textSmall {
+        text-align: center;
+    }
+    .button {
+        text-align: center;
+    }
+    .btn1 {
+        padding: 7px 36px;
+    }
+    .firstSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navBackgroud {
+        background: rgba(0, 0, 0, 0.65);
+    }
+}

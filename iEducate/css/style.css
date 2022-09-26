@@ -1,0 +1,230 @@
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+    }
+    
+    .navbar .nav-list {
+        display: flex;
+        width: 95%;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .logo {
+        display: flex;
+        padding: 4px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo img {
+        width: 53px;
+        border-radius: 35px;
+        margin: 0px 30px;
+    }
+    
+    .nav-list li {
+        list-style: none;
+        padding: 13px 32px;
+    }
+    
+    .nav-list li a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .nav-list li a:hover {
+        color: rgb(212, 209, 209);
+    }
+    
+    .rightnav {
+        width: 35%;
+        text-align: right;
+        padding: 0px 23px;
+    }
+    
+    .rightnav input {
+        color: black;
+        border: 2px solid black;
+        border-radius: 7px;
+        height: 23px;
+        width: 64%;
+        outline: none;
+        padding: 4px 13px;
+    }
+    
+    .burger {
+        position: absolute;
+        top: 20px;
+        right: 4%;
+        cursor: pointer;
+    }
+    
+    .line {
+        display: none;
+        background-color: white;
+        width: 33px;
+        padding: 2px;
+        margin: 6px 4px;
+    }
+    
+    .background {
+        background: rgba(0, 0, 0, 0.5) url("../img/bg.jpg");
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    
+    .firstSection {
+        height: 100vh;
+    }
+    
+    .mainBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 10px;
+        max-width: 60%;
+        margin: auto;
+        height: 75%;
+    }
+    
+    .firstHalf {
+        width: 80%;
+    }
+    
+    .secondHalf img {
+        width: 68%;
+        border-radius: 152px;
+        display: block;
+        margin: auto;
+    }
+    
+    .textBig {
+        font-size: 32px;
+    }
+    
+    .textSmall {
+        font-size: 17px;
+    }
+    
+    .btn {
+        padding: 6px 20px;
+        border: 2px solid white;
+        border-radius: 6px;
+        cursor: pointer;
+        outline: none;
+        margin: 8px 3px;
+        background: none;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 16px;
+    }
+    
+    .btn-sm {
+        padding: 3px 5px;
+    }
+    
+    .sectionMiddle {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        max-width: 80%;
+    }
+    
+    .sectionLeft {
+        flex-direction: row-reverse;
+    }
+    
+    .sectionTag {
+        font-family: 'Ubuntu', sans-serif;
+        padding: 14px 0px;
+    }
+    
+    .sectionSubTag {}
+    
+    .imgFluid {
+        width: 240px;
+        border: 2px solid gray;
+        border-radius: 20px;
+        margin-top: 25px;
+    }
+    
+    .paras {
+        padding: 0px 60px;
+    }
+    
+    .contact {
+        height: 95vh;
+        background-color: rgb(236 236 236);
+    }
+    
+    .contactHeadlines {
+        text-align: center;
+        padding: 22px 0;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 30px;
+    }
+    
+    .form {
+        max-width: 800px;
+        margin: auto;
+    }
+    
+    .formInput {
+        width: 100%;
+        font-size: 18px;
+        padding: 4px;
+        border: 2px solid gray;
+        border-radius: 5px;
+        margin: 14px;
+    }
+    
+    .form textarea {
+        width: 100%;
+        font-size: 18px;
+        padding: 4px;
+        border: 2px solid gray;
+        border-radius: 5px;
+        margin: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 210px;
+    }
+    
+    .btnDarken {
+        display: block;
+        color: gray;
+        border: 2px solid gray;
+        margin: 0px auto;
+        width: 40%;
+    }
+    
+    footer p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 6px;
+        padding: 22px 0;
+        font-size: 16px;
+        color: white;
+        background: rgba(0, 0, 0, 0.7);
+    }
